@@ -1,0 +1,311 @@
+{
+  // Network
+  // "http.proxy": "http://IIT2022042:2004-10-20@172.31.2.3:8080",
+
+  // Workbench
+  "workbench.editor.useModal": "some",
+  "workbench.settings.editor": "ui",
+  "workbench.panel.showLabels": false,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.secondarySideBar.defaultVisibility": "maximized",
+  "workbench.editor.empty.hint": "hidden",
+
+  // Editor
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, 'JetBrainsMono Nerd Font'",
+  "editor.minimap.enabled": true,
+  "editor.minimap.autohide": "mouseover",
+  "editor.mouseWheelZoom": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.largeFileOptimizations": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.colorDecorators": true,
+  "editor.defaultColorDecorators": "always",
+  "editor.colorDecoratorsActivatedOn": "hover",
+
+  // Files & Explorer
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Language Specific Formatting
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.autoIndent": "full",
+    "editor.formatOnType": true
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "bradlc.vscode-tailwindcss"
+  },
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.shellIntegration.history": 0,
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
+  "terminal.integrated.tabs.hideCondition": "singleGroup",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "gutter",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+  },
+  "terminal.integrated.autoReplies": {
+    "Terminate batch job (Y/N)": "Y\r"
+  },
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+
+  // Code Runner
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && java $fileName",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cue": "cue ",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css"
+  },
+
+  // C/C++
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.default.compilerPath": "C:\\cygwin64\\bin\\gcc.exe",
+  "C_Cpp.default.mergeConfigurations": true,
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x86",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.intelliSenseUpdateDelay": 1000,
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  "C_Cpp.suggestSnippets": false,
+  "C_Cpp.default.enableConfigurationSquiggles": true,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 2 , BreakStringLiterals: false, Cpp11BracedListStyle: false, AlignArrayOfStructures: Right, AlignConsecutiveMacros: Consecutive, AllowShortIfStatementsOnASingleLine: AllIfsAndElse, AllowShortLoopsOnASingleLine: true }",
+  "C_Cpp.files.exclude": {
+    "**/.vscode": true,
+    "**/.vs": true
+  },
+
+  // JavaScript/TypeScript
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.suggest.autoImports": true,
+  "js/ts.suggest.completeFunctionCalls": true,
+  "js/ts.suggest.includeAutomaticOptionalChainCompletions": true,
+
+  // Python
+  "python.languageServer": "Default",
+  "python.createEnvironment.trigger": "off",
+  "ruff.enable": true,
+
+  // Notebook
+  "notebook.lineNumbers": "on",
+  "jupyter.interactiveWindow.creationMode": "perFile",
+
+  // Git & GitLens
+  "git.addAICoAuthor": "chatAndAgent",
+  "git.blame.editorDecoration.enabled": false,
+  "gitlens.currentLine.uncommittedChangesFormat": "✏️ ${ago}",
+  "gitlens.codeLens.scopes": ["document", "containers"],
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.views.commitDetails.files.layout": "list",
+  "gitlens.hovers.enabled": false,
+  "gitlens.launchpad.indicator.enabled": false,
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": true
+  },
+  "biome.suggestInstallingGlobally": false,
+  "inlineChat.finishOnType": true,
+  "tailwindCSS.colorDecorators": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+
+  // Chat
+  "chat.plugins.enabled": true,
+  "chat.plugins.marketplaces": [
+    "github/copilot-plugins",
+    "github/awesome-copilot",
+    "anthropics/claude-code"
+  ],
+  "chat.customAgentInSubagent.enabled": true,
+  "chat.mcp.access": "all",
+  "chat.agent.maxRequests": 100,
+  "chat.checkpoints.showFileChanges": true,
+  "chat.notifyWindowOnResponseReceived": "always",
+  "chat.tools.terminal.autoApprove": {
+    "pnpm": true,
+    "pnpx": true,
+    "cd e:\\dev\\solveintelligence\\collaboration; node server.js": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "node server.js": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  },
+  
+  // GitHub Copilot
+  "github.copilot.editor.enableCodeActions": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.extendedRange": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "typescriptreact": true
+  },
+  
+  // Experimental
+  "inlineChat.affordance": "editor",
+  "github.copilot.chat.searchSubagent.enabled": true,
+  "github.copilot.chat.copilotMemory.enabled": true,
+  "github.copilot.chat.notebook.enhancedNextEditSuggestions.enabled": true,
+  "chat.agent.thinkingStyle": "collapsedPreview",
+  "chat.mcp.autostart": "newAndOutdated",
+  "chat.mcp.gallery.enabled": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "diffEditor.experimental.showMoves": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["/.zenodo.json"],
+      "url": "https://raw.githubusercontent.com/zenodraft/metadata-schema-zenodo/master/schema.json"
+    }
+  ],
+  "redhat.telemetry.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "json.schemaDownload.trustedDomains": {
+    "https://aka.ms/winget-settings.schema.json": true,
+    "https://biomejs.dev": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true
+  },
+  "biome.enabled": false,
+  "chat.editor.wordWrap": "on",
+  "chat.editing.explainChanges.enabled": true,
+  "extensions.allowOpenInModalEditor": true,
+  "inlineChat.renderMode": "hover",
+  "chat.notifyWindowOnConfirmation": "always",
+  "workbench.browser.enableChatTools": true,
+  "chat.pluginLocations": {},
+  "chat.autopilot.enabled": true,
+  "chat.useCustomAgentHooks": true,
+  "github.copilot.chat.agentDebugLog.enabled": true,
+  "github.copilot.chat.agent.autoFix": true,
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.backgroundCompaction": true,
+  "chat.imageCarousel.enabled": true,
+  "terminal.integrated.windowsUseConptyDll": true,
+  "chat.viewSessions.orientation": "stacked",
+  "workbench.colorTheme": "Monokai",
+  "github.copilot.chat.cli.forkSessions.enabled": true,
+  "chat.subagents.allowInvocationsFromSubagents": true,
+  "chat.tools.terminal.backgroundNotifications": true,
+  "github.copilot.chat.anthropic.contextEditing.mode": "clear-both",
+  "editor.linkedEditing": true,
+}
